@@ -1,0 +1,92 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Sun Nov 11 11:25:39 2018",
+    "version": "eosio::abi/1.0",
+    "structs": [
+        {
+            "name": "payineos",
+            "base": "",
+            "fields": [
+                {
+                    "name": "vendor",
+                    "type": "name"
+                },
+                {
+                    "name": "customer",
+                    "type": "name"
+                },
+                {
+                    "name": "amount",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "payinrealeos",
+            "base": "",
+            "fields": [
+                {
+                    "name": "vendor",
+                    "type": "name"
+                },
+                {
+                    "name": "amount",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "payinrealeos3",
+            "base": "",
+            "fields": [
+                {
+                    "name": "vendor",
+                    "type": "name"
+                },
+                {
+                    "name": "customer",
+                    "type": "name"
+                },
+                {
+                    "name": "amount",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "settaxrate",
+            "base": "",
+            "fields": [
+                {
+                    "name": "rate",
+                    "type": "float32"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "payineos",
+            "type": "payineos",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "payinrealeos",
+            "type": "payinrealeos",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "payinrealeos3",
+            "type": "payinrealeos3",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "settaxrate",
+            "type": "settaxrate",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "ricardian_clauses": [],
+    "abi_extensions": []
+}

@@ -1,0 +1,18 @@
+# eoshackathon
+
+docker id (result of docker run command):
+2fcaaa4167408a5748d34c73945c652cd8370ce307ebff61bb9695d7711738e5
+
+cleos wallet password:
+PW5K2eUPz82mUuqKMfAeCyoQWZBHeVJRy7zjdfCkGcaS7xUSF6gfn
+
+cleos wallet create_key
+Created new private key with a public key of:
+EOS5UPwuve8J338ou8C5oWLyoasE4VqpYQxkvmTSkf6SAKm1gEFzu
+
+cleos wallet import
+input private key: 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+(development key)
+public key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+
+cleos create account eosio alice EOS5UPwuve8J338ou8C5oWLyoasE4VqpYQxkvmTSkf6SAKm1gEFzu
