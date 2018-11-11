@@ -1,5 +1,5 @@
 {
-    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Sun Nov 11 11:25:39 2018",
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Sun Nov 11 12:50:34 2018",
     "version": "eosio::abi/1.0",
     "structs": [
         {
@@ -29,7 +29,7 @@
                     "type": "name"
                 },
                 {
-                    "name": "amount",
+                    "name": "token",
                     "type": "asset"
                 }
             ]
@@ -47,7 +47,7 @@
                     "type": "name"
                 },
                 {
-                    "name": "amount",
+                    "name": "token",
                     "type": "asset"
                 }
             ]
@@ -58,6 +58,16 @@
             "fields": [
                 {
                     "name": "rate",
+                    "type": "float32"
+                }
+            ]
+        },
+        {
+            "name": "setxfeerate",
+            "base": "",
+            "fields": [
+                {
+                    "name": "feerate",
                     "type": "float32"
                 }
             ]
@@ -83,6 +93,11 @@
         {
             "name": "settaxrate",
             "type": "settaxrate",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "setxfeerate",
+            "type": "setxfeerate",
             "ricardian_contract": ""
         }
     ],

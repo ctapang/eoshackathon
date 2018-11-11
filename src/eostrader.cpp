@@ -43,7 +43,7 @@ class [[eosio::contract]] eostrader : public eosio::contract {
       action payInRealEOS = action(
         permission_level{get_self(),"active"_n},
         "payment"_n,
-        "pay_in_real_eos"_n,
+        "payinrealeos"_n,
         std::make_tuple(user, amount * exch_rate)
       );
 
